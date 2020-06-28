@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap);
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.home {
+    background-image: url(./home1.jpg);
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+.home-img {
+    grid-column: 1;
+    grid-row : 1 / 4;
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+}
+
+
+.home-title {
+    grid-column: 2;
+    grid-row: 2 / 3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 170px;
+    font-weight: bold;
+    margin:0px 10px;
+    border : 0px;
+    display: grid;
+    place-content: start start;
+}
+
+.home-content {
+    grid-column: 2;
+    grid-row: 3 / 4;
+    margin: 0px 10px;
+    width: 50%;
+    background-color: whitesmoke;
+    display: grid;
+    place-content: center center ;
+    font-family: 'Lora', serif;
+}
+.home-content-1 {
+    margin-left: 10px;
+    font-size: 1.4rem;
+}
+.home-content-2 {
+    margin-left: 10px;
+    font-size: 2rem;
+}
