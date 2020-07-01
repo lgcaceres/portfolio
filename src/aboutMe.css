@@ -1,3 +1,22 @@
+.aboutMe {
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.description {
+    width: 30%;
+    height: 30%;
+    align-self: center;
+    text-align: center;
+    font-family: monospace;
+
+}
+.projects {
+    align-self: center;
+}
 .img {
-    max-width: 300px;
+    max-width: 30%;
+    margin: 1rem;
 }

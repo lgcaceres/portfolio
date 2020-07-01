@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap);
+
+.header  {
+    display: flex;
+    height: 30px;
+    background-color: grey;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}

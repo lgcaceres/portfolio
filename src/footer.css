@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    background-color: grey;
+    height: 300px;
+    place-content: center;
+}
+
+.form {
+    margin: 25px auto;
+    width: 250px;
+    height: 250px;
+    background-color:whitesmoke;
+}

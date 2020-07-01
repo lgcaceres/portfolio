@@ -1,11 +1,12 @@
 import React from 'react';
+import './header.css';
 
 const Header = ()=> {
     return (
-        <div>
-            <a>Home</a>
-            <a>About</a>
-            <a>Contact</a>
+        <div className = 'header'>
+            <a href='./home.js'>Home</a>
+            <a href='./aboutMe.js'>About</a>
+            <a href='./footer.js'>Contact</a>
         </div>
     )
 }
