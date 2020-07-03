@@ -5,7 +5,7 @@ import photo from './photo.png'
 const Home = ()=> {
     return (
         <div className="home">
-            <h1 className ="home-title">hi</h1>
+            <div className ="home-title">hi</div>
             <div className = "home-content">
                 <p className = "home-content-1">I'm Luis,</p>
                 <p className = "home-content-2">a front-end developer</p>
