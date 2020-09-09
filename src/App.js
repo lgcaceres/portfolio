@@ -4,6 +4,7 @@ import Header from './header';
 import Home from './home';
 import AboutMe from './aboutMe';
 import Footer from './footer';
+import './home.css';
 
 function App() {
   return (
@@ -16,5 +17,6 @@ function App() {
     
   );
 }
+
 
 export default App;
