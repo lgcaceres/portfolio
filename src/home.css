@@ -41,12 +41,12 @@
     grid-row: 3 / 4;
     margin: 0px 10px;
     width: 50%;
-    background-color: whitesmoke;
+    background-color: white;
     display: grid;
     place-content: center center ;
     font-family: 'Lora', serif;
 }
-.home-content-1 {
+.home-content-1 {       
     margin-left: 10px;
     font-size: 1.4rem;
 }
